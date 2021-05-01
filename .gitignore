@@ -1,5 +1,17 @@
-# Object file
-*.o
+## Ignore Harbour temporary files, build results, and
+## other files.
+##
+## 
 
-# Ada Library Information
-*.ali
+
+## Harbour files with use pagnet
+
+marcasin/file/*.*
+marcasin/report/*.*
+marcasin/prg/*.exe
+marcasin/prg/*.ppo
+marcasin/prg/*.obj
+
+
+
+
